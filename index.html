@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Login portfolio item</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="col-xl-5 col-lg-6 col-md-8 col-sm-7 mx-auto my-4">
+            <form action="Login" method="post" class="form-horizontal form-body shadow-background " id="autofill-override">
+                <div class="row panel-top py-3 px-4 mx-0">
+                    <h1 class="col-8 text-muted">Login to your account</h1>
+                    <h1 class="col-4 text-muted text-right">Logo</h1>
+                </div>
+                <div class="panel-body py-1 px-3">
+                    <div validation-summary="All" class="text-danger"></div>
+                    <div class="col-xl-10 col-lg-8 col-md-10 col-sm-10 mx-auto">
+                        <div class="row makeshift form-group my-3">
+                            <div class="col-1">
+                                <i class="fa fa-user fa-fw" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-4 too-much-hassle">
+                                <label class="control-label">
+                                    Username
+                                </label>
+                            </div>
+                            <div class="col-7 to-do-it-otherwise">
+                                <input type="text"  placeholder="Enter your username" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="row makeshift form-group my-3">
+                            <div class="col-1">
+                                <i class="fa fa-key fa-fw" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-4 too-much-hassle">
+                                <label class="control-label">Password</label>
+                            </div>
+                            <div class="col-7 to-do-it-otherwise">
+                                <input type="password" placeholder="Enter your password" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-5 float-left text-left mx-0 pl-3 pr-0">
+                                <label><input type="checkbox" name="RememberMe" id="RememberMe" value="true">Remember me </label>
+                            </div>
+                            <div class="col-7 custom-button float-right text-right mx-0 px-0">
+                                <button type="submit" class="btn btn-secondary">Log in</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-bottom py-2 row mx-0">
+                    <div class="col-6">
+                        <p class="text-left text-muted ml-3 py-0 my-3">
+                            <i class="fa fa-lock" aria-hidden="true"></i>
+                            Trouble <a href="#" title="Forgot your password?">loging in</a>?
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <p class="text-right text-muted mr-3 py-0 my-1">Don't have an account?</p>
+                        <p class="text-right text-muted mr-3 py-0 my-1">Go to our <a href="#">register <i class="fa fa-sign-in" aria-hidden="true"></i></a> page.</p>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-xl-6 col-lg-8 col-md-10 col-sm-7 pt-4 mx-auto text-center">
+            <span class="text-muted py-5">or use another service to log in</span>
+            <hr class="hr-deco" />
+            <div class="social-media d-md-flex mt-3 d-sm-block mx-auto">
+                <button type="submit" class="custom-button btn-sm media-body col-5 mx-md-1 mx-sm-auto my-1 w-50 for-my-next-trick" value="LinkedIn" title="Log in using your Linkedin account">
+                    <div class="text-sm-justify clearfix float-left">
+                        <div class="col-sm-6 mx-sm-auto d-inline fa-pos-fix fa-bcg-LinkedIn side-border ">
+                            <i class="fa fa-linkedin fa-fw " aria-hidden="true"></i>
+                        </div>
+                        <div class="font-fix ml-xl-3 ml-lg-3 ml-md-2 float-right">
+                            Linkedin
+                        </div>
+                    </div>
+                </button>
+                <button type="submit" class="custom-button btn-sm media-body col-5 mx-md-1 mx-sm-auto my-1 w-50 for-my-next-trick" value="Microsoft" title="Log in using your Microsoft account">
+                    <div class="text-sm-justify clearfix float-left">
+                        <div class="col-sm-6 mx-sm-auto d-inline fa-pos-fix fa-bcg-Microsoft side-border ">
+                            <i class="fa fa-windows fa-fw " aria-hidden="true"></i>
+                        </div>
+                        <div class="font-fix ml-xl-3 ml-lg-3 ml-md-2 float-right">
+                            Microsoft
+                        </div>
+                    </div>
+                </button>
+                <button type="submit" class="custom-button btn-sm media-body col-5 mx-md-1 mx-sm-auto my-1 w-50 for-my-next-trick" value="Google" title="Log in using your Google account">
+                    <div class="text-sm-justify clearfix float-left">
+                        <div class="col-sm-6 mx-sm-auto d-inline fa-pos-fix fa-bcg-Google side-border ">
+                            <i class="fa fa-google fa-fw " aria-hidden="true"></i>
+                        </div>
+                        <div class="font-fix ml-xl-3 ml-lg-3 ml-md-2 float-right">
+                            Google
+                        </div>
+                    </div>
+                </button>
+                <button type="submit" class="custom-button btn-sm media-body col-5 mx-md-1 mx-sm-auto my-1 w-50 for-my-next-trick" value="Twitter" title="Log in using your Twitter account">
+                    <div class="text-sm-justify clearfix float-left">
+                        <div class="col-sm-6 mx-sm-auto d-inline fa-pos-fix fa-bcg-Twitter side-border ">
+                            <i class="fa fa-twitter fa-fw " aria-hidden="true"></i>
+                        </div>
+                        <div class="font-fix ml-xl-3 ml-lg-3 ml-md-2 float-right">
+                            Twitter
+                        </div>
+                    </div>
+                </button>
+                <button type="submit" class="custom-button btn-sm media-body col-5 mx-md-1 mx-sm-auto my-1 w-50 for-my-next-trick" value="Facebook" title="Log in using your Facebook account">
+                    <div class="text-sm-justify clearfix float-left">
+                        <div class="col-sm-6 mx-sm-auto d-inline fa-pos-fix fa-bcg-Facebook side-border ">
+                            <i class="fa fa-facebook fa-fw " aria-hidden="true"></i>
+                        </div>
+                        <div class="font-fix ml-xl-3 ml-lg-3 ml-md-2 float-right">
+                            Facebook
+                        </div>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </body>
+</html>
